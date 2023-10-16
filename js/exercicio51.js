@@ -15,6 +15,9 @@ function executarExercicio51(){
 
     } while (confirmacao>1);
 
+    
+    
+
     soma = soma/contador
 
     alert("A media das idades é:" + soma)

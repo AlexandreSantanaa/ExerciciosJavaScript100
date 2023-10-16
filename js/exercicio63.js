@@ -1,14 +1,9 @@
 function executarExercicio63(){
-    let numero=0, media=0, contador=0, soma=0
-
-    while(contador<5){
-        //numero=prompt("Digite um numero")
-        numero=parseInt(prompt("Digite um numero"))
-        
-        soma=soma+numero
-        contador++
-    }
-    media=soma/contador
-    alert(soma+"/"+contador+"="+media)
+    alert("Crie um programa que exiba os números ímpares de 1 a 50 usando o loop while")
     
+    numero = 1
+    while(numero<=50){
+        console.log((numero%2==1?numero:""))
+        numero++
+    }
 }
